@@ -1,0 +1,41 @@
+.container{
+  margin:0 auto;
+  max-width:500px;
+  font-family: 'Grandstander', cursive;
+}
+
+h1{
+  font-size: 3em; /* 48px*/
+  text-transform:uppercase;
+  text-align:center;
+}
+
+
+label{
+  text-transform: uppercase;
+  font-size: 1.875em;
+  font-weight: bolder;
+}
+
+input{
+  width:200px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.deleteButton{
+  background-color: darkslateblue;  
+  width:30px;
+  height: 30px;
+  border-radius:50%;
+  color:white;
+  margin-right:10px;
+}
+
+.clickable{
+  cursor:pointer;
+}
+
+.circle{
+  list-style-type: none;
+}
